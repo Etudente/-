@@ -1,0 +1,19 @@
+body {
+	background-color: aqua;
+}
+.header {
+	margin: 200px;
+	font-family: 'Cuprum', 'Arial', 'Helvetica', sans-serif;
+}
+.dws-menu * {
+	padding: 0;
+	margin: 0;
+}
+.dws-menu ul,
+.dws-menu ol {
+	list-style: none;
+}
+..dws-menu > ul {
+	display: flex;
+	justify-content: center;
+}
